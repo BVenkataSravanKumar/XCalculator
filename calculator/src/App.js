@@ -8,7 +8,7 @@ function App() {
     if (value === "C") {
       setExpression("");
       setResult("");
-    } else if (value === "Enter") {
+    } else if (value === "=") {
       try {
         if (!/^[0-9+\-*/.]+$/.test(expression)) {
           setResult("Error");
@@ -35,7 +35,7 @@ function App() {
         {["7", "8", "9", "+",
           "4", "5", "6", "-",
           "1", "2", "3", "*",
-          "C", "0", "Enter", "/"].map((btn) => (
+          "C", "0", "=", "/"].map((btn) => (
           <button key={btn} onClick={() => handleClick(btn)}>
             {btn}
           </button>

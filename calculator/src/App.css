@@ -1,0 +1,43 @@
+*{
+  background-color: cornflowerblue;
+}
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 30px;
+  
+}
+
+input {
+  margin: 10px 0;
+  padding: 8px;
+  font-size: 1.2rem;
+  width: 180px;
+  text-align: right;
+  background-color: rgb(235, 233, 233);
+}
+
+h2 {
+  margin: 10px 0;
+  color: #333;
+}
+
+.calculator {
+  display: grid;
+  grid-template-columns: repeat(5, 75px);
+  grid-gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+  text-align: center;
+}
+
+button {
+  padding: 15px;
+  font-size: 1.2rem;
+  border: 2px solid #333;
+  border-radius: 8px;
+  cursor: pointer;
+  background: rgb(235, 233, 233);
+}
+
+
